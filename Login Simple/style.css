@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:url("https://cdn.pixabay.com/photo/2018/03/30/13/01/sun-3275314_960_720.jpg");
+	background-size:cover;
+	font-family: 'Advent Pro', sans-serif;
+}
+*{
+	font-family: 'Advent Pro', sans-serif;
+}
+h2{
+	font-size: 30px;
+	font-weight: 600;
+	margin:0;
+	margin-bottom: 10px;
+}
+.wrap{
+	position: absolute;
+	top:25%;
+	left:40%;
+	border: 5px solid #fff;
+	border-radius: 30px;
+	width: 18%;
+	height: 250px;
+	text-align: center;
+	padding: 20px;
+	background-color: #eed64e;
+	
+}
+.wrap div{
+	margin-bottom: 5px;
+	opacity: 1;
+}
+input{
+	background-color: #ffba2a;
+	text-align: center;
+	height: 30px;
+	width: 200px;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	margin: 3px;
+}
+label{
+	color: black;
+	font-size: 20px;
+	font-weight: 600;
+}
+button{
+	background-color: #14ea67;
+	text-align: center;
+	height: 30px;
+	width: 200px;
+	border: 2px solid white;
+	outline: none;
+	border-radius: 20px;
+	margin:20px;
+	font-size: 15px;
+	font-weight: 600;
+}
