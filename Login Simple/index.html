@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CodersFunda-Login</title>
+	<link href="https://fonts.googleapis.com/css?family=Advent+Pro:500,600" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="wrap">
+	<h2>CodersFunda</h2>
+	<form>
+		
+		<label for="username">Username</label>
+		<div>
+			<input id="username" type="text" name="USERNAME" placeholder="enter your username..." required>
+		</div>
+
+		<label for="password">Password</label>
+		<div>
+			<input id="password" type="password" name="PASSWORD" placeholder="enter your password..." pattern=".{5,12}"  required title="Password must be 5-12 characters long">
+		</div>
+		
+		<button>Login</button>
+	</form>
+</div>
+</body>
+</html>
